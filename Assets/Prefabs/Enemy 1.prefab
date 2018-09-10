@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212218514603101586}
   - component: {fileID: 114546269478442494}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,11 +52,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da65b173dd8cbb4f9ac9ad06f293902, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 4339482535649014, guid: 0c5518bb79ff8ce4b9d6e5021b9a3ff2, type: 2}
-  - {fileID: 4497843998708702, guid: 0c5518bb79ff8ce4b9d6e5021b9a3ff2, type: 2}
-  - {fileID: 4443046227318220, guid: 0c5518bb79ff8ce4b9d6e5021b9a3ff2, type: 2}
-  moveSpeed: 2
 --- !u!212 &212218514603101586
 SpriteRenderer:
   m_ObjectHideFlags: 1
