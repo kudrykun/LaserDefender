@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50619070317444452}
   - component: {fileID: 114879159277998220}
   - component: {fileID: 70277641068482260}
+  - component: {fileID: 114999246464697172}
   m_Layer: 0
   m_Name: Laser Projectile
   m_TagString: Untagged
@@ -72,7 +73,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -89,6 +90,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f127ad7e25b849248862381817c2779c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114999246464697172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816550886619962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56dffb299db83f147b43e6615d2e943e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
 --- !u!212 &212131775553055694
 SpriteRenderer:
   m_ObjectHideFlags: 1
