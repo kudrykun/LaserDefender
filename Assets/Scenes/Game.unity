@@ -126,7 +126,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4590749038293050, guid: 1d829c2bd1e76bd408776feb7da569ca, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 7.32
+      value: 7.317
       objectReference: {fileID: 0}
     - target: {fileID: 4590749038293050, guid: 1d829c2bd1e76bd408776feb7da569ca, type: 2}
       propertyPath: m_LocalPosition.z
@@ -429,11 +429,6 @@ Prefab:
     - target: {fileID: 4190363988922810, guid: a5509ae0971d7624896b516933ededc6, type: 2}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114171982640537204, guid: a5509ae0971d7624896b516933ededc6,
-        type: 2}
-      propertyPath: laserProjectile
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5509ae0971d7624896b516933ededc6, type: 2}

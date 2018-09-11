@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114546269478442494}
   - component: {fileID: 114534317533543694}
   - component: {fileID: 58588755808015328}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ice Wiener
   m_TagString: Untagged
   m_Icon: {fileID: 0}
