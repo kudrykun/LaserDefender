@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ad528509c33f544bba9e67903445efe, type: 3}
   m_Name: Wave e1p2
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 0}
-  pathPrefab: {fileID: 0}
-  timeBetweenSpawns: 0.5
+  enemyPrefab: {fileID: 1855564258485844, guid: 7b8ba1b354e592c44a1f822b0108461c,
+    type: 2}
+  pathPrefab: {fileID: 1719317930855178, guid: 8682739931a1743978e75be412f0dc27, type: 2}
+  timeBetweenSpawns: 0.7
   spawnRandomFactor: 0.3
   numberOfEnemies: 5
-  moveSpeed: 2
+  moveSpeed: 10

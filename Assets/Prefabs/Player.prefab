@@ -54,7 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   boundariesPadding: 1
-  laserPrefab: {fileID: 114879159277998220, guid: 487ab034a1449224d9ec6dacb571827c,
+  laserPrefab: {fileID: 1816550886619962, guid: 487ab034a1449224d9ec6dacb571827c,
     type: 2}
   projectileSpeed: 20
   projectileFiringPeriod: 0.1

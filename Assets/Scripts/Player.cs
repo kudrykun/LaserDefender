@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
     //config params
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float boundariesPadding = 1f;
-    [SerializeField] LaserProjectile laserPrefab;
+    [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float projectileFiringPeriod = 0.4f;
 
@@ -58,7 +58,7 @@ public class Player : MonoBehaviour {
     {
         while (true)
         {
-            LaserProjectile laser = Instantiate(laserPrefab, transform.position, Quaternion.identity);
+            GameObject laser = Instantiate(laserPrefab, transform.position, Quaternion.identity);
             laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
             yield return new WaitForSeconds(projectileFiringPeriod);
         }
